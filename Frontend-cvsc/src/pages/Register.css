@@ -1,0 +1,55 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.register {
+  color: white;
+}
+
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.login-register {
+  width: 50% !important;
+}
+
+input {
+  padding-top: 2%;
+  width: 50%;
+  background-color: white;
+  font-weight: 600;
+  color: black;
+  padding: 14px 20px;
+  margin-top: 5% !important;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+  input {
+    padding-top: 2%;
+    width: inherit;
+    background-color: white;
+    font-weight: 600;
+    color: black;
+    padding: 14px 20px;
+    margin-top: 5% !important;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 992px) {
+  .login-register {
+    width: inherit !important;
+  }
+}

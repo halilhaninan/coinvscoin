@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+*,
+input {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --bg-shape-color: linear-gradient(120deg, #343a4f, #0f1620);
+  --lightblue: #3d9dea;
+  --darkblue: #4a4eee;
+  --text-color: #d5e1ef;
+}
+
+.wrapper {
+  width: 100%;
+  margin-left: 2%;
+
+  border-radius: 40px;
+  background-image: var(--bg-shape-color);
+  overflow: hidden;
+}
+.overviewInfo2,
+.overviewInfo,
+.productSpecifications {
+  padding: 24px;
+}
+.overviewInfo {
+  background-image: linear-gradient(176deg, var(--lightblue), var(--darkblue));
+}
+
+.test {
+  width: %;
+  padding-top: 1%;
+  border-radius: 29px;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  background-image: var(--bg-shape-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
